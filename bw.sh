@@ -1,7 +1,7 @@
 #!/bin/bash
 count=$1 # 启动几个进程
 nic=$2 # 接口
-peer=13   # 单个消耗13m，每秒13m的数据，速率约100mbps
+peer=8   # 单个消耗13m，每秒13m的数据，速率约100mbps
 url=$3
 
 while true
